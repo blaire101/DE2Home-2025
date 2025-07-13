@@ -7,9 +7,6 @@ A command-line ticket-booking system.
 
 ## 2. 💡 Assumptions & Design Rationale
 
-- **Seat indexing**: rows 0–25 map to A–Z, columns 0–49 map to seats 1–50.  
-- **Allocation strategy**: default is “furthest row, then center-most contiguous block.” Custom starts overflow naturally.  
-  
 ## 3. 🔧 Environment Setup
 
 ```
@@ -66,14 +63,6 @@ pytest
 PYTHONPATH=.:src python3 -m src
 ```
 
-Then input as prompted, for example:
-
-```
-Please define movie title and seating map in [Title] [Row] [SeatsPerRow] format:
-> Inception 8 10
-```
-
-
 ## 6. 🗂 Project Structure
 
 The repository is organized into clear layers to separate source code, documentation, logs, and tests.
@@ -117,18 +106,8 @@ The repository is organized into clear layers to separate source code, documenta
 
 ## 8. 📝 Detailed Design
 
-### 8.1 Detailed Design
-
-Contains the following sections:
-
-**Module Responsibilities**
+### 8.1 Module Responsibilities
 
 ### 8.2  Class Diagram
 
-### 8.3 Sequence Diagram (Main)
-
-- **Application Start** Sequence Diagram   
-- **Booking Tickets** Sequence Diagram   
-- **Check Bookings** Sequence Diagram   
-- **Exit** Sequence Diagram  
-
+### 8.3 Sequence Diagram
