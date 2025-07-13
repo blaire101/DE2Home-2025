@@ -41,7 +41,7 @@ typing_extensions==4.14.0
 # Prerequisites: Set up Python environment (using conda)
 
 # Navigate to the project root
-cd G-Cinema-Booking-System
+cd python-project
 
 # (Optional) Create and Activate Virtual Environment with Python 3.9 and pip & Install Dependencies
 conda create -n g2env python=3.9 pip
