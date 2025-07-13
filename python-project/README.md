@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ```bash
 # Navigate to the project root
-cd G-Cinema-Booking-System
+cd python-project
 ```
 
 ```bash
