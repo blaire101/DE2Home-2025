@@ -3,18 +3,14 @@
 
 ## 1. 📌 Project Desc
 
-A command-line ticket-booking system. 
+A command-line ticket-booking python project. 
 
-## 2. 💡 Assumptions & Design Rationale
-
-## 3. 🔧 Environment Setup
+## 2. 🔧 Environment Setup
 
 ```
 - Python 3.9 (macOS or Linux)  
 - pyetst  (for unit testing)
 ```
-
-When installing pytest, it will automatically bring in some necessary helper libraries, which are already listed in requirements.txt.
 
 <details>
 <summary>📦 Click to see <strong>requirements.txt</strong> dependency list</summary>
@@ -32,7 +28,7 @@ typing_extensions==4.14.0
 
 </details>
 
-## 4. ⚙️ Installation
+## 3. ⚙️ Installation
 
 ```bash
 # Prerequisites: Set up Python environment (using conda)
@@ -48,7 +44,7 @@ conda activate g2env
 pip install -r requirements.txt
 ```
 
-## 5. 🚀 Usage
+## 4. 🚀 Usage
 
 ```bash
 # Navigate to the project root
@@ -63,7 +59,7 @@ pytest
 PYTHONPATH=.:src python3 -m src
 ```
 
-## 6. 🗂 Project Structure
+## 5. 🗂 Project Structure
 
 The repository is organized into clear layers to separate source code, documentation, logs, and tests.
 
@@ -92,7 +88,7 @@ The repository is organized into clear layers to separate source code, documenta
 
 ---
 
-## 7. 🧪 Tests 
+## 6. 🧪 Tests 
 
 **We use pytest for TDD:**
 
@@ -104,10 +100,8 @@ The repository is organized into clear layers to separate source code, documenta
  - test_system.py does a simple CLI sanity check.
 
 
-## 8. 📝 Detailed Design
+## 7. 📝 Detailed Design
 
-### 8.1 Module Responsibilities
+### Class Diagram
 
-### 8.2  Class Diagram
-
-### 8.3 Sequence Diagram
+### Sequence Diagram
