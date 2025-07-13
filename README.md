@@ -1,5 +1,5 @@
 
-# Cinemas Booking System
+# Python Project Sample
 
 ## 1. 📌 Project Desc
 
