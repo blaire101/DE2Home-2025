@@ -3,7 +3,7 @@
 
 ## 1. 📌 Project Desc
 
-A command-line ticket-booking python project. 
+A python project. 
 
 ## 2. 🔧 Environment Setup
 
